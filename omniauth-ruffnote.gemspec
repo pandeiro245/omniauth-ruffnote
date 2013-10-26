@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Omniauth::Ruffnote::VERSION
   spec.authors       = ["pandeiro245"]
   spec.email         = ["pandeiro245@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{a gem like omniauth-github for Ruffnote}
+  spec.summary       = %q{a gem like omniauth-github for Ruffnote}
   spec.homepage      = "https://github.com/pandeiro245/omniauth-ruffnote"
   spec.license       = "MIT"
 
@@ -18,10 +18,9 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  gem.add_dependency 'omniauth', '~> 1.0'
-  gem.add_dependency 'omniauth-oauth2', '~> 1.1'
-  gem.add_development_dependency 'rspec', '~> 2.7'
-
+  spec.add_dependency 'omniauth', '~> 1.0'
+  spec.add_dependency 'omniauth-oauth2', '~> 1.1'
+  spec.add_development_dependency 'rspec', '~> 2.7'
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
